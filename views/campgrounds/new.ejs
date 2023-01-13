@@ -13,7 +13,6 @@
                     <input class="form-control" type="text" id="location" name="campground[location]" required>
                     <div class="valid-feedback">Looks good!</div>
                 </div>
-                <input type="file" name="image" id="" multiple>
                 <!-- <div class="mb-3">
                     <label class="form-label" for="image">Image Url</label>
                     <input class="form-control" type="text" id="image" name="campground[image]" required>
@@ -32,6 +31,10 @@
                         <input type="number" class="form-control" min="0" id="price" name="campground[price]" required>
                         <span class="input-group-text " id="price">.00</span>
                         <div class="valid-feedback">Looks good!</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="formFileMultiple" class="form-label">Upload images:</label>
+                        <input class="form-control" type="file" id="formFileMultiple" name="image" multiple>
                     </div>
                 </div>
                 <div class="mb-3">
