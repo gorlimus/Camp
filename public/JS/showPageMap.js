@@ -4,7 +4,7 @@ y = latitude;
 
 const map = new mapboxgl.Map({
     container: 'map', // container ID
-    style: 'mapbox://styles/mapbox/streets-v12', // style URL
+    style: 'mapbox://styles/mapbox/light-v11',
     center: [x, y], // starting position [lng, lat]
     zoom: 4, // starting zoom
 });
@@ -14,7 +14,7 @@ new mapboxgl
     .setPopup(
         new mapboxgl.Popup({ offset: 25 })
             .setHTML(
-                `<h3>${title}</h3>`
+                `<h5>${title}</h5>`
             )
     )
     .addTo(map)

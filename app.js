@@ -1,6 +1,7 @@
 if (process.env.NODE_ENV !== 'production') {
     require('dotenv').config();
 };
+
 const express = require('express');
 const session = require('express-session');
 const mongoose = require('mongoose');
@@ -68,6 +69,10 @@ app.use((req, res, next) => {
 app.use('/campgrounds', campgroundRoutes);
 app.use('/campgrounds/:id/reviews', reviewRoutes);
 app.use('/', userRoutes);
+
+app.get('/', (req, res, next) => {
+    res.render('home')
+});
 
 app.all('*', (req, res, next) => {
     next(new ExpressError("Page not found", 404));
