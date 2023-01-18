@@ -25,12 +25,12 @@ const seedDB = async () => {
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti nesciunt ratione consectetur modi corporis totam ad, odit quos asperiores molestiae suscipit animi debitis quas repellendus est? Porro, harum iure. Quod.',
             price: Math.floor(random1000 / 10),
             images: [{
-                url: 'https://res.cloudinary.com/dyjb0amlp/image/upload/v1673621710/Yelp-Camp/dino-reichmuth-pl1mhwMctJc-unsplash_tpiv1c.jpg',
-                filename: 'Yelp-Camp/dino-reichmuth-pl1mhwMctJc-unsplash_tpiv1c'
+                url: 'https://res.cloudinary.com/dyjb0amlp/image/upload/v1674059712/Yelp-Camp/scott-goodwill-y8Ngwq34_Ak-unsplash_xoakbn.jpg',
+                filename: 'Yelp-Camp/scott-goodwill-y8Ngwq34_Ak-unsplash_xoakbn'
             },
             {
-                url: 'https://res.cloudinary.com/dyjb0amlp/image/upload/v1673621710/Yelp-Camp/josh-hild-8f_VQ3EFbTg-unsplash_hkomir.jpg',
-                filename: 'Yelp-Camp/josh-hild-8f_VQ3EFbTg-unsplash_hkomir'
+                url: 'https://res.cloudinary.com/dyjb0amlp/image/upload/v1674059712/Yelp-Camp/zach-betten-K9olx8OF36A-unsplash_1_qbe2cx.jpg',
+                filename: 'Yelp-Camp/zach-betten-K9olx8OF36A-unsplash_1_qbe2cx'
             }],
             geometry: {
                 type: "Point",
