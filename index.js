@@ -95,6 +95,9 @@ app.use("/", userRoutes);
 app.get("/", (req, res, next) => {
   res.render("home");
 });
+app.get("/about", (req, res, next) => {
+  res.render("about");
+});
 
 app.all("*", (req, res, next) => {
   next(new ExpressError("Page not found", 404));
