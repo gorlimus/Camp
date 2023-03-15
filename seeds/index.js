@@ -2,7 +2,7 @@ require("dotenv").config({ path: "../.env" });
 
 const mongoose = require("mongoose");
 const cities = require("./cities");
-const { places, descriptors, description } = require("./seedHelper");
+const { places, descriptors, description, images } = require("./seedHelper");
 const Campground = require("../models/campground");
 
 const dbUrl = process.env.DB_URL;
@@ -38,19 +38,36 @@ const seedDB = async () => {
   for (let i = 0; i < 100; i++) {
     const random1000 = Math.floor(Math.random() * 1000);
     const fullTitle = `${sample(descriptors)} ${sample(places)}`;
+
+    const img1 = sample(images);
+    const img2 = sample(images);
+    const img3 = sample(images);
+
     const camp = new Campground({
       title: `${fullTitle}`,
       description: `${fullTitle} - ${sample(description)}`,
       price: Math.floor(random1000 / 10),
       images: [
         {
-          url: "https://res.cloudinary.com/dyjb0amlp/image/upload/v1674059712/Yelp-Camp/scott-goodwill-y8Ngwq34_Ak-unsplash_xoakbn.jpg",
-          filename: "Yelp-Camp/scott-goodwill-y8Ngwq34_Ak-unsplash_xoakbn",
+          url: img1.url,
+          filename: img1.filename,
         },
         {
-          url: "https://res.cloudinary.com/dyjb0amlp/image/upload/v1674059712/Yelp-Camp/zach-betten-K9olx8OF36A-unsplash_1_qbe2cx.jpg",
-          filename: "Yelp-Camp/zach-betten-K9olx8OF36A-unsplash_1_qbe2cx",
+          url: img2.url,
+          filename: img2.filename,
         },
+        {
+          url: img3.url,
+          filename: img3.filename,
+        },
+        // {
+        //   url: "https://res.cloudinary.com/dyjb0amlp/image/upload/v1674059712/Yelp-Camp/scott-goodwill-y8Ngwq34_Ak-unsplash_xoakbn.jpg",
+        //   filename: "Yelp-Camp/scott-goodwill-y8Ngwq34_Ak-unsplash_xoakbn",
+        // },
+        // {
+        //   url: "https://res.cloudinary.com/dyjb0amlp/image/upload/v1674059712/Yelp-Camp/zach-betten-K9olx8OF36A-unsplash_1_qbe2cx.jpg",
+        //   filename: "Yelp-Camp/zach-betten-K9olx8OF36A-unsplash_1_qbe2cx",
+        // },
       ],
       geometry: {
         type: "Point",

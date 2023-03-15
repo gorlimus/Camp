@@ -70,3 +70,66 @@ module.exports.description = [
   "Take a dip in the crystal-clear waters of the lake at this waterfront campground, which also features a sandy beach for sunbathing.",
   "This campground is a paradise for birdwatchers, with dozens of species of birds to spot in the surrounding trees and fields.",
 ];
+
+module.exports.images = [
+  {
+    url: "https://res.cloudinary.com/dyjb0amlp/image/upload/v1674059712/Yelp-Camp/scott-goodwill-y8Ngwq34_Ak-unsplash_xoakbn.jpg",
+    filename: "Yelp-Camp/scott-goodwill-y8Ngwq34_Ak-unsplash_xoakbn",
+  },
+  {
+    url: "https://res.cloudinary.com/dyjb0amlp/image/upload/v1674059712/Yelp-Camp/zach-betten-K9olx8OF36A-unsplash_1_qbe2cx.jpg",
+    filename: "Yelp-Camp/zach-betten-K9olx8OF36A-unsplash_1_qbe2cx",
+  },
+  {
+    url: "https://res.cloudinary.com/dyjb0amlp/image/upload/v1674136433/Yelp-Camp/avyn1qbyli88tswj6l22.jpg",
+    filename: "avyn1qbyli88tswj6l22",
+  },
+  {
+    url: "https://res.cloudinary.com/dyjb0amlp/image/upload/v1674136433/Yelp-Camp/ennpjdmvmoplu2mrchhs.jpg",
+    filename: "ennpjdmvmoplu2mrchhs",
+  },
+  {
+    url: "https://res.cloudinary.com/dyjb0amlp/image/upload/v1674136941/Yelp-Camp/noho5brwamadgqx9xlpf.jpg",
+    filename: "noho5brwamadgqx9xlpf",
+  },
+  {
+    url: "https://res.cloudinary.com/dyjb0amlp/image/upload/v1678726357/Yelp-Camp/pt44amtnlb6moxhoeedf.jpg",
+    filename: "pt44amtnlb6moxhoeedf",
+  },
+  {
+    url: "https://res.cloudinary.com/dyjb0amlp/image/upload/v1678726363/Yelp-Camp/aycjs7ywvjxuqwmlbg5n.jpg",
+    filename: "aycjs7ywvjxuqwmlbg5n",
+  },
+  {
+    url: "https://res.cloudinary.com/dyjb0amlp/image/upload/v1678726536/Yelp-Camp/cbz3s6pgzpsh1od7jqu8.jpg",
+    filename: "cbz3s6pgzpsh1od7jqu8",
+  },
+  {
+    url: "https://res.cloudinary.com/dyjb0amlp/image/upload/v1678726544/Yelp-Camp/pohbwsdqcsqo1bzwj9sk.jpg",
+    filename: "pohbwsdqcsqo1bzwj9sk",
+  },
+  {
+    url: "https://res.cloudinary.com/dyjb0amlp/image/upload/v1678726736/Yelp-Camp/xhtmpc5ewr4rw1uepau9.jpg",
+    filename: "xhtmpc5ewr4rw1uepau9",
+  },
+  {
+    url: "https://res.cloudinary.com/dyjb0amlp/image/upload/v1678726749/Yelp-Camp/vcwkeigkrgkym6fsbnbh.jpg",
+    filename: "xhtmpc5ewr4rw1uepau9",
+  },
+  {
+    url: "https://res.cloudinary.com/dyjb0amlp/image/upload/v1678726536/Yelp-Camp/cbz3s6pgzpsh1od7jqu8.jpg",
+    filename: "cbz3s6pgzpsh1od7jqu8",
+  },
+  {
+    url: "https://res.cloudinary.com/dyjb0amlp/image/upload/v1678726544/Yelp-Camp/pohbwsdqcsqo1bzwj9sk.jpg",
+    filename: "pohbwsdqcsqo1bzwj9sk",
+  },
+  {
+    url: "https://res.cloudinary.com/dyjb0amlp/image/upload/v1678726736/Yelp-Camp/xhtmpc5ewr4rw1uepau9.jpg",
+    filename: "xhtmpc5ewr4rw1uepau9",
+  },
+  {
+    url: "https://res.cloudinary.com/dyjb0amlp/image/upload/v1678726749/Yelp-Camp/vcwkeigkrgkym6fsbnbh.jpg",
+    filename: "xhtmpc5ewr4rw1uepau9",
+  },
+];
